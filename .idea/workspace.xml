@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f9c80530-5c3a-4c4a-b519-cd21bc8bf6db" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="cmds.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cmds.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2750">
+              <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+              <folding>
+                <marker date="1521123590439" expanded="true" signature="135:162" ph="/** Muestra la ayuda ...*/" />
+                <marker date="1521123590439" expanded="true" signature="187:765" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="768:829" ph="/** Lista todos los comandos existentes en el modelos. ...*/" />
+                <marker date="1521123590439" expanded="true" signature="854:1121" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="904:922" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="1013:1041" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="1081:1097" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="1151:1555" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="1207:1245" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="1246:1318" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="1322:1545" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="1387:1487" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="1491:1535" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="1559:1679" ph="/** Muestra el quiz indicado en el parámetro: la pregunta y la respuesta ...*/" />
+                <marker date="1521123590439" expanded="true" signature="1711:2176" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="1800:1817" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="1823:1916" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="2067:2095" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="2136:2152" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="2216:2386" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="2272:2284" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="2327:2355" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="2391:2498" ph="/** Añadir un nuevo quiz al modelo. ...*/" />
+                <marker date="1521123590439" expanded="true" signature="2521:3277" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="2600:2771" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="2703:2771" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="2825:2870" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="2904:2922" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="3090:3135" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="3237:3253" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="3280:3354" ph="/** Borra un quiz del modelo. ...*/" />
+                <marker date="1521123590439" expanded="true" signature="3387:3598" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="3488:3516" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="3558:3574" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="3602:3673" ph="/** Edita el quiz indicado. ...*/" />
+                <marker date="1521123590439" expanded="true" signature="3703:4856" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="3792:3809" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="3815:3909" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="4085:4114" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="4286:4320" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="4502:4534" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="4568:4586" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="4747:4775" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="4816:4832" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="4859:4931" ph="/** Prueba el quiz indicado. ...*/" />
+                <marker date="1521123590439" expanded="true" signature="4962:5928" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="5051:5069" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="5076:5170" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="5288:5323" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="5383:5554" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="5560:5733" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="5823:5847" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="5889:5905" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="5955:7653" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="6062:6088" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="6115:6148" ph="{&quot;preguntas&quot;: preguntas...}" />
+                <marker date="1521123590439" expanded="true" signature="6185:7407" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="6244:6275" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="6289:6508" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="6806:6845" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="6905:7092" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="7122:7362" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="7433:7458" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="7481:7508" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="7545:7573" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="7614:7630" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="7656:7676" ph="/** Creditos. ...*/" />
+                <marker date="1521123590439" expanded="true" signature="7703:7784" ph="{...}" />
+                <marker date="1521123590439" expanded="true" signature="7787:7819" ph="/** Salimos del programa. ...*/" />
+                <marker date="1521123590439" expanded="true" signature="7844:7880" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="75" />
+    <option name="y" value="-4" />
+    <option name="width" value="615" />
+    <option name="height" value="658" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="P3_QUIZ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P3_QUIZ" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9c80530-5c3a-4c4a-b519-cd21bc8bf6db" name="Default" comment="" />
+      <created>1521123565699</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521123565699</updated>
+      <workItem from="1521123567899" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="59" y="-4" width="1301" height="667" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cmds.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2750">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding>
+            <marker date="1521123590439" expanded="true" signature="135:162" ph="/** Muestra la ayuda ...*/" />
+            <marker date="1521123590439" expanded="true" signature="187:765" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="768:829" ph="/** Lista todos los comandos existentes en el modelos. ...*/" />
+            <marker date="1521123590439" expanded="true" signature="854:1121" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="904:922" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="1013:1041" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="1081:1097" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="1151:1555" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="1207:1245" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="1246:1318" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="1322:1545" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="1387:1487" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="1491:1535" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="1559:1679" ph="/** Muestra el quiz indicado en el parámetro: la pregunta y la respuesta ...*/" />
+            <marker date="1521123590439" expanded="true" signature="1711:2176" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="1800:1817" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="1823:1916" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="2067:2095" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="2136:2152" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="2216:2386" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="2272:2284" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="2327:2355" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="2391:2498" ph="/** Añadir un nuevo quiz al modelo. ...*/" />
+            <marker date="1521123590439" expanded="true" signature="2521:3277" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="2600:2771" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="2703:2771" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="2825:2870" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="2904:2922" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="3090:3135" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="3237:3253" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="3280:3354" ph="/** Borra un quiz del modelo. ...*/" />
+            <marker date="1521123590439" expanded="true" signature="3387:3598" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="3488:3516" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="3558:3574" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="3602:3673" ph="/** Edita el quiz indicado. ...*/" />
+            <marker date="1521123590439" expanded="true" signature="3703:4856" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="3792:3809" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="3815:3909" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="4085:4114" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="4286:4320" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="4502:4534" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="4568:4586" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="4747:4775" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="4816:4832" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="4859:4931" ph="/** Prueba el quiz indicado. ...*/" />
+            <marker date="1521123590439" expanded="true" signature="4962:5928" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="5051:5069" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="5076:5170" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="5288:5323" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="5383:5554" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="5560:5733" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="5823:5847" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="5889:5905" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="5955:7653" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="6062:6088" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="6115:6148" ph="{&quot;preguntas&quot;: preguntas...}" />
+            <marker date="1521123590439" expanded="true" signature="6185:7407" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="6244:6275" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="6289:6508" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="6806:6845" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="6905:7092" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="7122:7362" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="7433:7458" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="7481:7508" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="7545:7573" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="7614:7630" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="7656:7676" ph="/** Creditos. ...*/" />
+            <marker date="1521123590439" expanded="true" signature="7703:7784" ph="{...}" />
+            <marker date="1521123590439" expanded="true" signature="7787:7819" ph="/** Salimos del programa. ...*/" />
+            <marker date="1521123590439" expanded="true" signature="7844:7880" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
