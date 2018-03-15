@@ -209,16 +209,8 @@ exports.playCmd = rl => {
     let score = 0; //preguntas que se han ido acertando
     let preguntas = [];
 
-    models.quiz.findAll({
-        raw: true,
-    })
-        .then(quizzes => {
-            preguntas = quizzes;
-        })
-
     const play = () => {
-        return Promise.resolve()
-            .then(() => {
+        return new Promise((resolve ,reject) => {
                 if (preguntas.length <= 0) {
                     log(`No hay nada más que preguntar.`);
                     log(`Fin del juego. Aciertos: ` + score);
@@ -243,12 +235,16 @@ exports.playCmd = rl => {
                         }
                     })
 
-            })
+        })
+
     }
 
     models.quiz.findAll({
         raw:true,
     })
+        .then(quizzes =>{
+            preguntas=quizzes;
+        })
 
         .then(() => {
             return play();
